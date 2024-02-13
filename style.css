@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .wrapper {
+    height: 100vh;
+    background: #000;
+  
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .portrait {
+    font-size: 8px;
+    line-height: 10px;
+    background: url('Photo_Cleaner-air-clearer-skies.03.26.2020-web.jpg') fixed center no-repeat;
+    background-size: contain;
+  }
+  
+  /* This part is important for the feature itself */
+  .portrait {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(196, 185, 185, 0.1);
+  }
+  
